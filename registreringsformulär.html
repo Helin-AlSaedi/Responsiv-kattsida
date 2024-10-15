@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bli medlem!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h2>Registera dig!</h2>
+    <br />
+    <div class="formContainer">
+      <form action=" https://httpbin.org/anything" method="post">
+        <div class="Namn">
+          <label for="Namn">Namn</label>
+          <input id="Namn" name="Namn" type="text" required />
+        </div>
+
+        <div class="Efternamn">
+          <label for="Efternamn">Efternamn</label>
+          <input id="Efternamn" namn="Efternamn" type="text" required />
+        </div>
+
+        <div class="Lösenord">
+          <label for="Lösenord">Lösenord</label>
+          <input id="Lösenord" namn="Lösenord" type="password" required />
+        </div>
+
+        <div class="Email">
+          <label for="Email">Email</label>
+          <input id="Email" namn="Email" type="email" required />
+        </div>
+
+        <div class="Msg">
+          <label for="Msg">Meddelande</label>
+          <textarea id="Msg" name="Meddelande"></textarea>
+        </div>
+
+        <div class="Katt">
+          <label for="Kattras">Favorit-kattras</label>
+          <select name="Katt" id="Kattras" required>
+            <option value="">Välj kattras</option>
+            <option value="Ragdoll">Ragdoll</option>
+            <option value="Maine Coon">Maine Coon</option>
+            <option value="Sibirisk katt">Sibirisk katt</option>
+            <option value="Norsk skogkatt">Norsk skogkatt</option>
+            <option value="Brittisk korthår">Brittisk korthår</option>
+          </select>
+        </div>
+
+        <div class="Vilkor">
+          <label for="Vilkor">Godkänn vilkoren:</label>
+          <input type="checkbox" id="Vilkor" name="Vilkor" value="Vilkor" />
+        </div>
+
+        <div class="Skicka">
+          <button type="submit">Skicka</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
