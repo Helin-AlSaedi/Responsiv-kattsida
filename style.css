@@ -8,6 +8,8 @@
   display: none;
 }
 
+
+
 /* Mobile view home */
 @media (max-width: 769px) {
   .container {
